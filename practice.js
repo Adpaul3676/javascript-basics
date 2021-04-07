@@ -73,7 +73,7 @@ let dog = {
 //variable called devMountainClassPet.
 
 //Code Here
-var devMountainClassPet = dog['name']
+var devMountainClassPet = dog['name'];
 //////////////////PROBLEM 10////////////////////
 
 //Write a function called nameCheck that takes in a name parameter.
@@ -87,11 +87,12 @@ var devMountainClassPet = dog['name']
 function nameCheck(name){
   if (name = 'Steven') {
     return 'What is up Steven?'
-  } else
-     if (name = 'Bryan') {
-     return 'Hey Bryan!'
-  }   else {
+  } else {
+    if (name = 'Bryan') {
+      return 'Hey Bryan!'
+    } else {
       return 'Cool name, ' + name
+    }
   }
 }
 //////////////////PROBLEM 11////////////////////
@@ -180,10 +181,10 @@ let age = 20;
 
 // Code Here
 function aging (age) {
-  return age++
+  return age + 1
 }
 aging (20);
 // Good news! We can live forever. Set your age to 999
 
 // Code Here
-aging (998);
+// let age = aging (998);
