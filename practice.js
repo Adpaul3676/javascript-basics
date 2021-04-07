@@ -37,7 +37,7 @@ let devMountainGoal = null;
 
 //Code here
 function greeting(name){
-  return "Hello, " + name
+  return "Hello, " + name;
 }
 //////////////////PROBLEM 7////////////////////
 
@@ -45,7 +45,7 @@ function greeting(name){
 //Give it the same functionality as the function greeting in Problem 6.
 
 //Code Here
-function newGreeting(name){
+var newGreeting = function(name){
   return "Hello, " + name
 }
 //////////////////PROBLEM 8////////////////////
@@ -103,7 +103,7 @@ function nameCheck(name){
 
 //Code Here
 function add (number1, number2) {
-  return number1 + number2
+  return number1 + number2;
 }
 
 //Now invoke add, passing in the numbers 3 and 4
@@ -174,16 +174,16 @@ let pondScope = ["duck", "realDuck"];
 //Create a variable called age with your age assigned to you
 
 // Code Here
-let age = 20;
+let me = {
+  name: 'Adam',
+  age: 20
+}
 // FLASH FORWARD TO NEXT YEAR
 // reassign the value of age to be one greater than it was, because, we all get older
 
 // Code Here
-function aging (age) {
-  return age + 1
-}
-aging (20);
+let age = me['age'] + 1;
 // Good news! We can live forever. Set your age to 999
 
 // Code Here
-// let age = aging (998);
+age = me['age'] + 979
