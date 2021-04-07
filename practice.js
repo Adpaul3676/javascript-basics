@@ -84,11 +84,11 @@ var devMountainClassPet = dog['name'];
 // with NAMEPARAM being the name parameter being passed in (not literally NAMEPARAM)
 
 // Code here
-function nameCheck(name){
-  if (name = 'Steven') {
+function nameCheck(name){ 
+  if (name === 'Steven') {
     return 'What is up Steven?'
   } else {
-    if (name = 'Bryan') {
+    if (name === 'Bryan') {
       return 'Hey Bryan!'
     } else {
       return 'Cool name, ' + name
@@ -104,7 +104,6 @@ function nameCheck(name){
 //Code Here
 function add (number1, number2) {
   return number1 + number2
-
 }
 
 //Now invoke add, passing in the numbers 3 and 4
@@ -123,13 +122,13 @@ let mathSum = add (3,4);
 
 // Code here
 function faveColorFinder (color) {
-  if (color = 'red') {
+  if (color === 'red') {
     return 'red is a great color'
   } else {
-    if (color = 'green') {
+    if (color === 'green') {
       return 'green is a solid favorite color'
     } else {
-      if (color = 'black') {
+      if (color === 'black') {
         return 'so trendy'
       } else {
         return 'you need to evaluate your favorite color choice'
