@@ -63,13 +63,17 @@ let groceries = ['apples', 'milk', 'eggs', 'bread'];
 //and goodBoy (a boolean).
 
 //Code Here
-var dog = ['hazel', 'brown', 3];
-var goodBoy = true;
+let dog = {
+  name: 'hazel',
+  color: 'brown',
+  age: 3,
+  goodBoy: true
+}
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
 //Code Here
-var devMountainClassPet = dog[0]
+var devMountainClassPet = dog['name']
 //////////////////PROBLEM 10////////////////////
 
 //Write a function called nameCheck that takes in a name parameter.
@@ -99,7 +103,7 @@ function nameCheck(name){
 //Code Here
 function add (number1, number2) {
   return number1 + number2
-  
+
 }
 
 //Now invoke add, passing in the numbers 3 and 4
@@ -163,7 +167,7 @@ let bathroomScope = ["duck", "rubberDuck"];
 let bathtubScope = ["duck", "sailorDuck", "rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ["realDuck"];
+let pondScope = ["duck", "realDuck"];
 
 //////////////////PROBLEM 14////////////////////
 
